@@ -3,9 +3,9 @@ let squares=document.querySelectorAll(".square");
 for(let t of squares){
 	t.addEventListener("mouseover",(event)=>{
 		for(let s of squares){
-            // s.style.backgroundColor = "#E6E6FA";
+            // s.style.backgroundColor = "";
 			if(s !== t) {
-               s.style.backgroundColor = "#6F4E37"; // Coffee
+               s.style.backgroundColor = "#E6E6FA"; // Coffee
            }
 			
         }
@@ -26,7 +26,7 @@ for(let t of squares){
 	});
 	t.addEventListener("mouseleave",(event)=>{
 		for(let s of squares){
-            s.style.backgroundColor = "#E6E6FA";
+            s.style.backgroundColor = "#6F4E37";
         }
 		
 	});

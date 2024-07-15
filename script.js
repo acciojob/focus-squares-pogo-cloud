@@ -5,6 +5,8 @@ for(let t of squares){
 		for(let s of squares){
             s.style.backgroundColor = "#E6E6FA";
         }
+		console.log(t.id);
+		
 		if(t.id=="square1"){
 			document.querySelector("#square2").style.backgroundColor="#6F4E37";
 			document.querySelector("#square3").style.backgroundColor="#6F4E37";
@@ -18,4 +20,12 @@ for(let t of squares){
 			document.querySelector("#square2").style.backgroundColor="#6F4E37";
 		}
 	})
+	t.addEventListener("mouseleave",(event)=>{
+		for(let s of squares){
+            s.style.backgroundColor = "#E6E6FA";
+        }
+		
+	})
+		// 
+	
 }

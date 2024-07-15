@@ -1,7 +1,7 @@
 //your JS code here. If required.
 let squares=document.querySelectorAll(".square");
 for(let t of squares){
-	t.addEventListener("click",(event)=>{
+	t.addEventListener("mouseover",(event)=>{
 		for(let s of squares){
             s.style.backgroundColor = "#E6E6FA";
         }

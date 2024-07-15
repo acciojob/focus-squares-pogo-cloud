@@ -23,13 +23,13 @@ for(let t of squares){
 		// 	document.querySelector("#square1").style.backgroundColor="#6F4E37";
 		// 	document.querySelector("#square2").style.backgroundColor="#6F4E37";
 		// }
-	})
+	});
 	t.addEventListener("mouseleave",(event)=>{
 		for(let s of squares){
             s.style.backgroundColor = "#E6E6FA";
         }
 		
-	})
+	});
 		// 
 	
 }
